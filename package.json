@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production node server.js",
-    "server": "nodemon server.js",
+    "server": "nodemon server.js"
   },
   "keywords": [
     "Warder"
