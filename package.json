@@ -1,0 +1,28 @@
+{
+  "name": "warderserver",
+  "version": "1.0.0",
+  "description": "Server of Warder",
+  "main": "server.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server.js",
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Warder"
+  ],
+  "author": "Andrey Sharov <andrey.v.sharov@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.6",
+    "cross-env": "^7.0.3",
+    "expo-server-sdk": "^3.6.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.14",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.0",
+    "socketio-jwt": "^4.6.2"
+  }
+}
